@@ -11,6 +11,13 @@ function App() {
         </p>
         <a
           className="App-link"
+          href="https://ekinkaradag.github.io"
+          rel="noopener noreferrer"
+        >
+          Visit my GitHub Pages
+        </a>
+        <a
+          className="App-link"
           href="https://ekinkaradag.com"
           target="_blank"
           rel="noopener noreferrer"
