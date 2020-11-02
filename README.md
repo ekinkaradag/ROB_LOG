@@ -1,3 +1,7 @@
+# View The React App Live
+
+You can view this React app by visiting [https://ekinkaradag.github.io/ROB_LOG](https://ekinkaradag.github.io/ROB_LOG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
