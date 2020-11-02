@@ -18,6 +18,10 @@ class App extends Component {
       .then((users) => this.setState({ robots: users }));
   }
 
+  handleChange = (e) => {
+    this.setState({ searchField: e.target.value });
+  };
+
   render() {
     const { robots, searchField } = this.state;
     //const robots = this.state;
@@ -29,7 +33,7 @@ class App extends Component {
       <div className="App">
         <SearchBox
           placeholder="Search robots"
-          handleChange={(e) => this.setState({ searchField: e.target.value })}
+          handleChange={this.handleChange}
         />
         <CardList robots={filteredRobots} />
       </div>
