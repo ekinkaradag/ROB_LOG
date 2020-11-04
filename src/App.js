@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import { CardList } from "./components/card-list/card-list.component";
 import { SearchBox } from "./components/search-box/search-box.component";
+import { SourceCodeInfo } from "./components/source-code-info/source-code-info.component";
 
 class App extends Component {
   constructor() {
@@ -32,6 +33,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>ROB_LOG</h1>
+        <SourceCodeInfo href={"https://github.com/ekinkaradag/ROB_LOG"} />
         <SearchBox
           placeholder="Search robots"
           handleChange={this.handleChange}
